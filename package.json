@@ -23,7 +23,7 @@
     "transpile": "./node_modules/@babel/cli/bin/babel.js src/components/CurrencyTextField -d dist --copy-files",
     "prepublishOnly": "npm run transpile",
     "publish-demo": "npm run build && npm run deploy",
-    "postinstall": "npm run build"
+    "postinstall": "npm install && npm run build"
   },
   "repository": {
     "type": "git",
